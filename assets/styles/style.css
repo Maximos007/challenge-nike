@@ -57,6 +57,8 @@ ul {
   list-style: none;
   display: flex;
   color: white;
+  
+  height: 30px;
 }
 
 li {
@@ -125,6 +127,18 @@ h1 {
 
 svg {
   margin: 15px 30px;
+}
+
+.pre-order {
+  background: #F95D27;
+  margin-left: auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px 0 0;
 }
 
 @keyframes move {
